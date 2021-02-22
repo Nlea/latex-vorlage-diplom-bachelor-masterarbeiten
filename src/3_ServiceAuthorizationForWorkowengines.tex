@@ -1,0 +1,17 @@
+\section{Service authorization for workflowengines}\label{serviceAuthorizationForWorkflowengines}
+
+Overview of the current state of service authorization for services with workflowengines
+-(Netflix conductor, Uber candence and ING Backer, Camunda Plattform, Zeebe)
+
+\subsection{Analysis of security vulnerabilities}\label{analysisVulnerabilities}
+- Identify the vulnerabilities and name the attack vectors
+- Thread to condentiality and integrity of process and process data
+
+\subsection{Critical use cases}\label{criticalUseCases}
+- In which use cases can the identied vulnerability lead to a risk
+- Examples:
+- 1.scenario: distributed micro service architecture with critical business process, like credit application
+(one malicious services writes and reads data from another service )
+- 2. scenario: Software as a Service: Multiple customers use the same workflow engine in the
+cloud:tenant based: without authorization dierent clients could read and write to process variables
+of different customers

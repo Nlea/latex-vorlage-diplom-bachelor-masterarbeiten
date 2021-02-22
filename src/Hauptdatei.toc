@@ -1,0 +1,30 @@
+\contentsline {section}{Abbildungsverzeichnis}{ii}{section*.4}%
+\contentsline {section}{Tabellenverzeichnis}{iii}{section*.5}%
+\contentsline {section}{Listingverzeichnis}{iv}{section*.6}%
+\contentsline {section}{Abkürzungsverzeichnis}{1}{section*.6}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Terminology}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Related research}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Workflowengine}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}In general}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}In context with microservices}{2}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Service authorization}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Micro service security}{2}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Service authorization implementations}{2}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}Service authorization for workflowengines}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Analysis of security vulnerabilities}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Critical use cases}{3}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Design a secure service authorization with a workflow engine}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Process properties to be protected}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Define authorization}{4}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Layers of authorization}{4}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Life cycle and rolls for authorization}{4}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Implementation of design}{4}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Discussion}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Evaluate the performance of the proposed design}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Evaluate the mitigation of the identified security vulnerabilities}{5}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Conclusion}{6}{section.6}%
+\contentsline {section}{Literaturverzeichnis}{9}{section*.7}%
+\contentsline {section}{Anhang}{10}{section*.9}%
+\contentsline {section}{Eidesstattliche Erklärung}{11}{section*.11}%

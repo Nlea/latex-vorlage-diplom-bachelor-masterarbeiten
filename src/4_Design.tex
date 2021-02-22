@@ -1,0 +1,30 @@
+\section{Design a secure service authorization with a workflow engine}\label{design}
+
+- Present a design to implement authorization
+
+\subsection{Process properties to be protected}\label{processPropertiesToBeProtected}
+-discuss different elements of the process that can or should be protected based on the example Camunda.
+Platform:
+Process variables (read, update)
+Allowed calls
+Process definitions
+Rolls for service tasks
+
+\subsection{Define authorization}\label{defineAuthorization}
+- Analyze concrete implementation rolls and layers for the identified resource above
+
+\subsubsection{Layers of authorization}\label{layersOfAuthorization}
+- Define which of the identified resource above can be protected by authorization on a higher level (like
+for example a SSO server)
+- Define the resource that needs to have authorization defined within the workflow engine:
+
+\subsubsection{Life cycle and rolls for authorization}\label{lifeCycleAndRolls}
+- Define where the authorization, that need to be defined in the workflowengine, can be set in the life
+cycle of a workflow:
+- Implementation phase: Groups of services with the same roll (e.g. a group where every service
+can access the subscription with a defined prefix, like payment- ): Can be set in the process model,
+needs to be set before deployment
+- execution phase: UI were an administrator can set fain grained authorization, can be set and managed
+after deployment as wel
+
+\subsection{Implementation of design}\label{implementation}
